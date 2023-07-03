@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilhaça-me</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Dancing+Script:wght@700&family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Livros</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Personagens</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Novidades</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Ajuda</a>
+                </li>
+            </ul>
+
+            <img src="img/logo1.png" alt="Logo do Harry Potter" class="container__logo">
+        </div>
+
+        <ul class="opções">
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu" class="opções__rotulo">
+                <li class="opções__item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Livros</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Personagens</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Novidades</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Ajuda</a>
+                </li>
+            </ul>
+
+            <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+            <li class="opções__item"><a href="#" class="opções__link">Meus Livros</a></li>
+        </ul>
+        
+            <h1 class="container__titulo">Estilhaça-me</h1>
+
+        <div class="container">
+            <a href="#"><img src="img/Favoritos.png" alt="Meus favoritos"
+                    class="container__imagem container__imagem-transparente"></a>
+            <a href="#" class="container__link">
+                <img src="img/Sacola.png" alt="Sacola" class="container__image">
+                <p class="container__texto">Minha sacola</p>
+            </a>
+            <a href="#" class="container__link">
+                <img src="img/perfil.png" alt="Meu perfil" class="container__imagem">
+                <p class="container__texto">Meu perfil</p>
+            </a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+        <p class="banner__texto">Encontre nossa sequência de livros!</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual será seu próximo livro?">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Livros</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/Estilhaca-me.png" alt="Livro Estilhaça-me"></div>
+                    <div class="swiper-slide"><img src="img/Liberta-me.png" alt="livro Liberta-me"></div>
+                    <div class="swiper-slide"><img src="img/Incendeia-me.png" alt="Livro Incendeia-me"></div>
+                    <div class="swiper-slide"><img src="img/Restaura-me.png" alt="Livro Restaura-me"></div>
+                    <div class="swiper-slide"><img src="img/Desafia-me.png" alt="Livro Desafia-me"></div>
+                    <div class="swiper-slide"><img src="img/Imagina-me.png" alt="Livro Imagina-me"></div>
+                    <div class="swiper-slide"><img src="img/unifica-me.jpg" alt=" livro unifica-me"></div>
+                    <div class="swiper-slide"><img src="img/Decifra-me.png" alt="Livro Decifra-me"></div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+
+            <div class="card">
+                <!-- 1º linha -->
+                <div class="card__descrição">
+                    <!-- 1º coluna -->
+                    <div class="descrição">
+                        <h3 class="descrição__titulo">Conheça Tahereh Mafi, autora do Best Seller “Estilhaça-me”!</h3>
+                        <p class="descrição__texto">Tahereh Mafi é uma autora estadunidense cujo Best Seller “Estilhaça-me” foi publicado em mais de 22 países. Filha de imigrantes iranianos e adepta do islamismo, ela valoriza muito as suas origens e afirma que faz parte do que ela é. A autora teve que enfrentar diversas dificuldades antes de fazer sucesso: Assim como muitos, ela foi rejeitada por diversas editoras antes de encontrar uma que aceitasse publicar a sua obra. </p>
+                    </div>
+                    <!-- 2º coluna -->
+                    <img src="img/autora.png" class="descrição__imagem">
+                </div>
+
+                <!-- 2º linha -->
+                <div class="card__botões">
+                    <!-- 1º coluna -->
+                    <ul class="botões">
+                        <li class="botões__item"><a href="#"><img src="img/Favoritos.png" alt="Favoritar filme"></a></li>
+                        <li class="botões__item"><a href="#"><img src="img/Sacola.png" alt="Adicionar no carrinho de compras"></a></li>
+                    </ul>
+                    <!-- 2º coluna -->
+                    <a href="https://universodoslivros.com.br/conheca-tahereh-mafi-autora-do-best-seller-estilhaca-me/" class="botões__ancora">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="contato">
+        <div class="contato__descrição">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações dos livros, informações e muito mais!</p>
+        </div>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+    </section>
+
+
+    <footer class="rodape__copy">
+    
+        <div class="rodapé__capcom">
+            <h2 class="rodapé__titulo-segundo">© 2023 WarnerMedia Direct Latin America, LLC. Todos os direitos reservados. HBO Max é usado sob licença.</h2>
+        </div>
+    
+    </footer>
+    
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+
+</html>

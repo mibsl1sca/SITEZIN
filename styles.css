@@ -1,0 +1,34 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --laranja: #a11f0d;
+    --azul-fonte: #0B305A; 
+    --fonte-principal: "Caveat";
+    --fonte-secundaria: "Indie Flower";
+    --azul: #06125a;
+    --preto: #000000;
+    --cinza: #474646;
+    --cinza-claro: #b6bee0;
+    --fonte-terciaria: "Dancing Script";
+    --cinza-header: #b1bbe7;
+   --dourado: #D3A029;
+   --dourado-escuro: #f3b82d;
+   --azul-header: #180024; 
+   --roxo: #17011a; 
+   --roxo-footer: #300035; 
+}
+
+body {
+    background-color: var(--cinza-claro);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
